@@ -1,0 +1,31 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: alt, unit: deg, datatype: float64}
+# - {name: az, unit: deg, datatype: float64}
+# - {name: dirname, datatype: string}
+# - {name: zenith, unit: deg, datatype: float64}
+# meta: !!omap
+# - __serialized_columns__:
+#     alt:
+#       __class__: astropy.coordinates.angles.Angle
+#       unit: &id001 !astropy.units.Unit {unit: deg}
+#       value: !astropy.table.SerializedColumn {name: alt}
+#     az:
+#       __class__: astropy.coordinates.angles.Angle
+#       unit: *id001
+#       value: !astropy.table.SerializedColumn {name: az}
+#     zenith:
+#       __class__: astropy.coordinates.angles.Angle
+#       unit: *id001
+#       value: !astropy.table.SerializedColumn {name: zenith}
+# schema: astropy-2.0
+alt az dirname zenith
+80.0 248.117 node_theta_10.0_az_248.117_ 10.0
+80.0 102.199 node_theta_10.0_az_102.199_ 10.0
+66.37 259.265 node_theta_23.630_az_259.265_ 23.629999999999995
+66.37 100.758 node_theta_23.630_az_100.758_ 23.629999999999995
+57.941 248.099 node_theta_32.059_az_248.099_ 32.059
+57.941 102.217 node_theta_32.059_az_102.217_ 32.059
+46.803 262.712 node_theta_43.197_az_262.712_ 43.197
+46.803 87.604 node_theta_43.197_az_87.604_ 43.197
