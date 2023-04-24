@@ -418,4 +418,3 @@ def produce_irfs_pyirf(gammas, simu_info, gh_efficiency, outfile,
 
     Path(outfile).parent.mkdir(exist_ok=True)
     fits.HDUList(hdus).writeto(outfile, overwrite=True)
-

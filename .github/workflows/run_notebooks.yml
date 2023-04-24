@@ -1,0 +1,37 @@
+name: Run Jupyter Notebooks
+
+on:
+  push:
+    branches:
+      - mindeps
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  run_notebooks:
+    runs-on: ubuntu-latest
+    container:
+      image: continuumio/miniconda3:22.11.1-alpine
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Setup environment
+      run: |
+        apk add --no-cache bash
+        conda create -f environment.yml 
+        echo ". /opt/conda/etc/profile.d/conda.sh" >> ~/.bashrc
+        conda activate crablst1
+
+    - name: Install Jupyter and nbconvert
+      run: |
+        conda activate crablst1
+        conda install -c conda-forge nbconvert=7.3.1
+
+    - name: Run Jupyter Notebooks
+      run: |
+        conda activate crablst1
+        chmod +x run_all_notebooks.sh
+        ./run_all_notebooks.sh .
