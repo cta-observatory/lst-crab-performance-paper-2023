@@ -3,7 +3,7 @@ name: Run Jupyter Notebooks
 on:
   push:
     branches:
-      - mindeps
+      - main
   pull_request:
     branches:
       - main
