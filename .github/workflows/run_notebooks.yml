@@ -21,7 +21,7 @@ jobs:
     - name: Setup environment
       run: |
         apk add --no-cache bash
-        conda create -f environment.yml 
+        conda env create -f environment.yml 
         echo ". /opt/conda/etc/profile.d/conda.sh" >> ~/.bashrc
         conda activate crablst1
 
