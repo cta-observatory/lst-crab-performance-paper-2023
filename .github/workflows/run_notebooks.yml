@@ -9,8 +9,8 @@ on:
       - main
 
 jobs:
-  example-3:
-    name: Ex3 Linux
+  run-notebooks:
+    name: Run notebooks
     runs-on: "ubuntu-22.04.2"
     defaults:
       run:
