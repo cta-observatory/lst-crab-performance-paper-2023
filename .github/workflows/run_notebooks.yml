@@ -23,6 +23,11 @@ jobs:
           environment-file: environment.yml
           auto-activate-base: false
       - run: |
+          conda info
+          conda list
+          conda config --show-sources
+          conda config --show
+          printenv | sort
           chmod +x run_all_notebooks.sh
           ./run_all_notebooks.sh .
           
