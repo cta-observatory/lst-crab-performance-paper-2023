@@ -5,6 +5,7 @@ import numpy as np
 import astropy.units as u
 
 
+
 def plot_gh_cut_per_energy(filename, ax=None, **kwargs):
     """ """
     ax = plt.gca() if ax is None else ax
@@ -13,19 +14,18 @@ def plot_gh_cut_per_energy(filename, ax=None, **kwargs):
 
     kwargs.setdefault("ls", "")
     ax.errorbar(
-        0.5 * (gh_cut["low"] + gh_cut["high"]).to_value(u.TeV),
-        gh_cut["cut"],
-        xerr=0.5 * (gh_cut["high"] - gh_cut["low"]).to_value(u.TeV),
+        0.5 * (gh_cut["true_energy_low"] + gh_cut["true_energy_high"]).to_value(u.TeV),
+        gh_cut["gh_cuts"],
+        xerr=0.5 * (gh_cut["true_energy_high"] - gh_cut["true_energy_low"]).to_value(u.TeV),
         **kwargs,
     )
 
+    ax.legend()
     ax.set_ylabel("G/H-cut")
     ax.set_xlabel(r"$E_\mathrm{reco} / \mathrm{TeV}$")
     ax.set_xscale("log")
-    ax.grid(True)
 
-    return ax
-
+    return 
 
 
 def plot_effective_area_from_file(file, all_cuts=False, ax=None, **kwargs):
@@ -96,6 +96,28 @@ def plot_psf_from_file(filename):
     fig.tight_layout()
 
     return axs
+
+
+def plot_theta_cut_per_energy(filename, hdu="THETA_CUTS", ax=None, **kwargs):
+    """ """
+    ax = plt.gca() if ax is None else ax
+
+    th_cut = QTable.read(filename, hdu=hdu)[1:-1]
+
+    kwargs.setdefault("ls", "")
+    ax.errorbar(
+        0.5 * (th_cut["low"] + th_cut["high"]).to_value(u.TeV),
+        th_cut["cut"],
+        xerr=0.5 * (th_cut["high"] - th_cut["low"]).to_value(u.TeV),
+        **kwargs,
+    )
+
+    ax.legend()
+    ax.set_ylabel(r"$\theta$ cut")
+    ax.set_xlabel(r"$E_\mathrm{reco} / \mathrm{TeV}$")
+    ax.set_xscale("log")
+
+    return
 
 
 def plot_theta_cut_from_file(filename, ax=None, **kwargs):
