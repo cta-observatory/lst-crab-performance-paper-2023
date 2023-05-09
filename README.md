@@ -30,3 +30,5 @@ jupyter-lab
 
 The repositoy is organised following the paper sections.    
 Each notebook can be run to reproduce the paper's figures.
+
+[![Run Jupyter Notebooks](https://github.com/cta-observatory/lst-crab-performance-paper-2023/actions/workflows/run_notebooks.yml/badge.svg?branch=main)](https://github.com/cta-observatory/lst-crab-performance-paper-2023/actions/workflows/run_notebooks.yml)
