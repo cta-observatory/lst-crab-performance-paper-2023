@@ -1,9 +1,6 @@
 # LST Crab performance paper
 
-This repository includes code and data to reproduce the paper entitled _Observations of the Crab Nebula and Pulsar with the Large-Sized Telescope prototype of the Cherenkov Telescope Array_ for the CTA LST collaboration.
-
-
-As some data is private and accessible only to LST collaboration members, part of the notebooks and code included here can be run only by LST members and are provided here for internal reproducibility.
+This repository includes code and data to reproduce the figures of the paper entitled _Observations of the Crab Nebula and Pulsar with the Large-Sized Telescope prototype of the Cherenkov Telescope Array_ for the CTA LST collaboration.
 
 
 ## How to run this repository
@@ -34,4 +31,4 @@ jupyter-lab
 The repositoy is organised following the paper sections.    
 Each notebook can be run to reproduce the paper's figures.
 
-Note that some notebooks or scripts are provided for internal reproducibility but the required data are private to the CTA-LST project.
+[![Run Jupyter Notebooks](https://github.com/cta-observatory/lst-crab-performance-paper-2023/actions/workflows/run_notebooks.yml/badge.svg?branch=main)](https://github.com/cta-observatory/lst-crab-performance-paper-2023/actions/workflows/run_notebooks.yml)
