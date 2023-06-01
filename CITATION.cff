@@ -23,6 +23,11 @@ authors:
     email: daniel.morcuende@ucm.es
     affiliation: 'UCM, IPARCOS'
     orcid: 'https://orcid.org/0000-0001-9400-0922'
+  - given-names: Abelardo
+    family-names: Moralejo Olaizola
+    email: moralejo@ifae.es
+    affiliation: 'IFAE-BIST'
+    orcid: 'https://orcid.org/0000-0002-1344-9080'
 repository-code: >-
   https://github.com/cta-observatory/lst-crab-performance-paper-2023/
 abstract: >-
