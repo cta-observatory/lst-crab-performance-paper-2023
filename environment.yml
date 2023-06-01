@@ -1,6 +1,5 @@
 name: crablst1
 channels:
-  - cta-observatory
   - conda-forge
   - default
 dependencies:
