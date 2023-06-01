@@ -7,6 +7,8 @@ This repository includes code and data to reproduce the figures of the paper ent
 
 ### On mybinder
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cta-observatory/lst-crab-performance-paper-2023/HEAD)
+
 You may vist https://mybinder.org/v2/gh/cta-observatory/lst-crab-performance-paper-2023/HEAD to run this repository online.
 
 ### On your computer
