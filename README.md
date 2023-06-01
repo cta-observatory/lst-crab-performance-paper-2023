@@ -1,6 +1,6 @@
 # LST Crab performance paper
 
-This repository includes code and data to reproduce the figures of the paper entitled _Observations of the Crab Nebula and Pulsar with the Large-Sized Telescope prototype of the Cherenkov Telescope Array_ for the CTA LST collaboration.
+This repository includes code and data to reproduce the figures (only the data points, not the entire data analysis) of the paper entitled _Observations of the Crab Nebula and Pulsar with the Large-Sized Telescope prototype of the Cherenkov Telescope Array_ for the CTA LST collaboration.
 
 
 ## How to run this repository
