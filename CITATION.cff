@@ -1,0 +1,34 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Observations of the Crab Nebula and Pulsar with the
+  Large-Sized Telescope prototype of the Cherenkov Telescope
+  Array Data Points
+message: >-
+  The data and code to reproduce the figures of the paper
+  entitled Observations of the Crab Nebula and Pulsar with
+  the Large-Sized Telescope prototype of the Cherenkov
+  Telescope Array
+type: dataset
+authors:
+  - given-names: Thomas
+    family-names: Vuillaume
+    email: thomas.vuillaume@lapp.in2p3.fr
+    affiliation: 'LAPP, CNRS'
+    orcid: 'https://orcid.org/0000-0002-5686-2078'
+repository-code: >-
+  https://github.com/cta-observatory/lst-crab-performance-paper-2023/
+abstract: >-
+  This repository includes code and data to reproduce the
+  figures (only the data points, not the entire data
+  analysis) of the paper entitled Observations of the Crab
+  Nebula and Pulsar with the Large-Sized Telescope prototype
+  of the Cherenkov Telescope Array for the CTA LST
+  collaboration.
+keywords:
+  - Gamma-ray telescopes
+  - Gamma-ray astronomy
+  - Astronomy data analysis
+license: MIT
