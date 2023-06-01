@@ -18,6 +18,11 @@ authors:
     email: thomas.vuillaume@lapp.in2p3.fr
     affiliation: 'LAPP, CNRS'
     orcid: 'https://orcid.org/0000-0002-5686-2078'
+  - given-names: Daniel
+    family-names: Morcuende
+    email: daniel.morcuende@ucm.es
+    affiliation: 'UCM, IPARCOS'
+    orcid: 'https://orcid.org/0000-0001-9400-0922'
 repository-code: >-
   https://github.com/cta-observatory/lst-crab-performance-paper-2023/
 abstract: >-
