@@ -33,6 +33,11 @@ authors:
     email: rlopezcoto@iaa.es
     affiliation: 'IAA-CSIC'
     orcid: 'https://orcid.org/0000-0002-3882-9477'
+  - given-names: Seiya
+    family-names: Nozaki
+    email: nozaki@mpp.mpg.de
+    affiliation: 'MPP'
+    orcid: 'https://orcid.org/0000-0002-6246-2767'
 repository-code: >-
   https://github.com/cta-observatory/lst-crab-performance-paper-2023/
 abstract: >-
