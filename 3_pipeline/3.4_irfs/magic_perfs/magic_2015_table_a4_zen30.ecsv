@@ -1,0 +1,48 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: E, unit: GeV, datatype: float64}
+# - {name: theta_g, unit: deg, datatype: float64}
+# - {name: theta_g_err, unit: deg, datatype: float64}
+# - {name: theta_68, unit: deg, datatype: float64}
+# - {name: theta_68_err_min, unit: deg, datatype: float64}
+# - {name: theta_68_err_max, unit: deg, datatype: float64}
+# meta: !!omap
+# - __serialized_columns__:
+#     E:
+#       __class__: astropy.units.quantity.Quantity
+#       unit: !astropy.units.Unit {unit: GeV}
+#       value: !astropy.table.SerializedColumn {name: E}
+#     theta_68:
+#       __class__: astropy.units.quantity.Quantity
+#       unit: &id001 !astropy.units.Unit {unit: deg}
+#       value: !astropy.table.SerializedColumn {name: theta_68}
+#     theta_68_err_max:
+#       __class__: astropy.units.quantity.Quantity
+#       unit: *id001
+#       value: !astropy.table.SerializedColumn {name: theta_68_err_max}
+#     theta_68_err_min:
+#       __class__: astropy.units.quantity.Quantity
+#       unit: *id001
+#       value: !astropy.table.SerializedColumn {name: theta_68_err_min}
+#     theta_g:
+#       __class__: astropy.units.quantity.Quantity
+#       unit: *id001
+#       value: !astropy.table.SerializedColumn {name: theta_g}
+#     theta_g_err:
+#       __class__: astropy.units.quantity.Quantity
+#       unit: *id001
+#       value: !astropy.table.SerializedColumn {name: theta_g_err}
+# schema: astropy-2.0
+E theta_g theta_g_err theta_68 theta_68_err_min theta_68_err_max
+95.0 0.087 0.004 0.157 -0.007 0.007
+150.0 0.075 0.002 0.135 -0.005 0.005
+238.0 0.067 0.001 0.108 -0.003 0.004
+378.0 0.058 0.001 0.095 -0.003 0.004
+599.0 0.052 0.001 0.081 -0.003 0.003
+949.0 0.046 0.001 0.073 -0.003 0.004
+1504.0 0.044 0.001 0.071 -0.003 0.005
+2383.0 0.042 0.002 0.067 -0.005 0.006
+3777.0 0.042 0.003 0.065 -0.004 0.011
+5986.0 0.041 0.004 0.062 -0.011 0.012
+9487.0 0.04 0.005 0.056 -0.012 0.062
