@@ -1,0 +1,36 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: E_min, unit: GeV, datatype: float64}
+# - {name: E_max, unit: GeV, datatype: float64}
+# - {name: bias, datatype: float64, format: .4f}
+# - {name: "\u03C3", datatype: float64, format: .4f}
+# - {name: RMS, datatype: float64, format: .4f}
+# - {name: bias_err, datatype: float64, format: .4f}
+# - {name: "\u03C3_err", datatype: float64, format: .4f}
+# - {name: RMS_err, datatype: float64, format: .4f}
+# meta: !!omap
+# - __serialized_columns__:
+#     E_max:
+#       __class__: astropy.units.quantity.Quantity
+#       unit: &id001 !astropy.units.Unit {unit: GeV}
+#       value: !astropy.table.SerializedColumn {name: E_max}
+#     E_min:
+#       __class__: astropy.units.quantity.Quantity
+#       unit: *id001
+#       value: !astropy.table.SerializedColumn {name: E_min}
+# schema: astropy-2.0
+E_min E_max bias σ RMS bias_err σ_err RMS_err
+47.0 75.0 0.45799999999999996 0.23 0.266 0.018000000000000002 0.02 0.01
+75.0 119.0 0.18899999999999997 0.213 0.237 0.006999999999999999 0.008 0.004
+119.0 189.0 0.038 0.18899999999999997 0.222 0.004 0.004 0.003
+189.0 299.0 -0.02 0.182 0.23199999999999998 0.003 0.003 0.002
+299.0 475.0 -0.038 0.175 0.223 0.003 0.003 0.002
+475.0 753.0 -0.026000000000000002 0.168 0.23 0.003 0.003 0.002
+753.0 1194.0 -0.015 0.166 0.23199999999999998 0.003 0.003 0.002
+1194.0 1892.0 -0.004 0.166 0.245 0.003 0.003 0.003
+1892.0 2999.0 -0.002 0.17300000000000001 0.252 0.003 0.003 0.003
+2999.0 4754.0 0.005 0.188 0.26 0.004 0.004 0.003
+4754.0 7535.0 0.009000000000000001 0.205 0.28 0.005 0.005 0.004
+7535.0 11943.0 -0.001 0.223 0.292 0.006999999999999999 0.006999999999999999 0.005
+11943.0 18928.0 0.006999999999999999 0.22699999999999998 0.295 0.008 0.008 0.006
