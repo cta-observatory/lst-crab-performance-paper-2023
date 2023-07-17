@@ -13,31 +13,31 @@ message: >-
   Telescope Array
 type: dataset
 authors:
-  - given-names: Thomas
-    family-names: Vuillaume
-    email: thomas.vuillaume@lapp.in2p3.fr
-    affiliation: 'LAPP, CNRS'
-    orcid: 'https://orcid.org/0000-0002-5686-2078'
-  - given-names: Daniel
-    family-names: Morcuende
-    email: daniel.morcuende@ucm.es
-    affiliation: 'UCM, IPARCOS'
-    orcid: 'https://orcid.org/0000-0001-9400-0922'
-  - given-names: Abelardo
-    family-names: Moralejo Olaizola
-    email: moralejo@ifae.es
-    affiliation: 'IFAE-BIST'
-    orcid: 'https://orcid.org/0000-0002-1344-9080'
   - given-names: Ruben
     family-names: Lopez Coto
     email: rlopezcoto@iaa.es
     affiliation: 'IAA-CSIC'
     orcid: 'https://orcid.org/0000-0002-3882-9477'
+  - given-names: Abelardo
+    family-names: Moralejo Olaizola
+    email: moralejo@ifae.es
+    affiliation: 'IFAE-BIST'
+    orcid: 'https://orcid.org/0000-0002-1344-9080'
+  - given-names: Daniel
+    family-names: Morcuende
+    email: daniel.morcuende@ucm.es
+    affiliation: 'UCM, IPARCOS'
+    orcid: 'https://orcid.org/0000-0001-9400-0922'
   - given-names: Seiya
     family-names: Nozaki
     email: nozaki@mpp.mpg.de
     affiliation: 'MPP'
     orcid: 'https://orcid.org/0000-0002-6246-2767'
+  - given-names: Thomas
+    family-names: Vuillaume
+    email: thomas.vuillaume@lapp.in2p3.fr
+    affiliation: 'LAPP, CNRS'
+    orcid: 'https://orcid.org/0000-0002-5686-2078'
 repository-code: >-
   https://github.com/cta-observatory/lst-crab-performance-paper-2023/
 abstract: >-
