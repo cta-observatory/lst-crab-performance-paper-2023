@@ -28,9 +28,18 @@ conda activate crablst1
 jupyter-lab
 ```
 
-## Running the notebooks
+### Running the notebooks
 
 The repositoy is organised following the paper sections.    
 Each notebook can be run to reproduce the paper's figures.
 
 [![Run Jupyter Notebooks](https://github.com/cta-observatory/lst-crab-performance-paper-2023/actions/workflows/run_notebooks.yml/badge.svg?branch=main)](https://github.com/cta-observatory/lst-crab-performance-paper-2023/actions/workflows/run_notebooks.yml)
+
+
+## Cite us 
+
+The preferred citation is the published article associated to this repository.
+
+However, if you use the data points or code for this repository for your work, you may in additatoin cite the exact version of this repository from Zenodo.
+
+[![DOI](https://zenodo.org/badge/617083935.svg)](https://zenodo.org/badge/latestdoi/617083935)
