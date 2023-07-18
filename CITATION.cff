@@ -16,60 +16,6 @@ authors:
   - given-names: Ruben
     family-names: Lopez Coto
     email: rlopezcoto@iaa.es
-    affiliation: 'IAA-CSIC'
-    orcid: 'https://orcid.org/0000-0002-3882-9477'
-  - given-names: Abelardo
-    family-names: Moralejo Olaizola
-    email: moralejo@ifae.es
-    affiliation: 'IFAE-BIST'
-    orcid: 'https://orcid.org/0000-0002-1344-9080'
-  - given-names: Daniel
-    family-names: Morcuende
-    email: daniel.morcuende@ucm.es
-    affiliation: 'UCM, IPARCOS'
-    orcid: 'https://orcid.org/0000-0001-9400-0922'
-  - given-names: Seiya
-    family-names: Nozaki
-    email: nozaki@mpp.mpg.de
-    affiliation: 'MPP'
-    orcid: 'https://orcid.org/0000-0002-6246-2767'
-  - given-names: Thomas
-    family-names: Vuillaume
-    email: thomas.vuillaume@lapp.in2p3.fr
-    affiliation: 'LAPP, CNRS'
-    orcid: 'https://orcid.org/0000-0002-5686-2078'
-repository-code: >-
-  https://github.com/cta-observatory/lst-crab-performance-paper-2023/
-abstract: >-
-  This repository includes code and data to reproduce the
-  figures (only the data points, not the entire data
-  analysis) of the paper entitled Observations of the Crab
-  Nebula and Pulsar with the Large-Sized Telescope prototype
-  of the Cherenkov Telescope Array for the CTA LST
-  collaboration.
-keywords:
-  - Gamma-ray telescopes
-  - Gamma-ray astronomy
-  - Astronomy data analysis
-license: BSD-3-Clause
-# This CITATION.cff file was generated with cffinit.
-# Visit https://bit.ly/cffinit to generate yours today!
-
-cff-version: 1.2.0
-title: >-
-  Observations of the Crab Nebula and Pulsar with the
-  Large-Sized Telescope prototype of the Cherenkov Telescope
-  Array Data Points
-message: >-
-  The data and code to reproduce the figures of the paper
-  entitled Observations of the Crab Nebula and Pulsar with
-  the Large-Sized Telescope prototype of the Cherenkov
-  Telescope Array
-type: dataset
-authors:
-  - given-names: Ruben
-    family-names: Lopez Coto
-    email: rlopezcoto@iaa.es
     affiliation: IAA-CSIC
     orcid: 'https://orcid.org/0000-0002-3882-9477'
   - given-names: Abelardo
@@ -106,6 +52,10 @@ keywords:
   - Gamma-ray astronomy
   - Astronomy data analysis
 license: BSD-3-Clause
+identifiers:
+  - description: This is the collection of archived snapshots of all versions of this repository
+    type: doi
+    value: "10.5281/zenodo.8159145"
 preferred-citation:
   type: "article"
   date-released: "2023-06-23"
