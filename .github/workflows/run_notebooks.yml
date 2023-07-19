@@ -16,12 +16,12 @@ jobs:
       run:
         shell: bash -el {0}
     steps:
-      - uses: actions/checkout@v2
-      - uses: conda-incubator/setup-miniconda@v2
+      - uses: actions/checkout@v3
+      - uses: mamba-org/setup-micromamba@v1
         with:
-          activate-environment: crablst1
           environment-file: environment.yml
-          auto-activate-base: false
+          cache-environment: true
+          post-cleanup: 'all'
       - run: |
           chmod +x run_all_notebooks.sh
           ./run_all_notebooks.sh .
