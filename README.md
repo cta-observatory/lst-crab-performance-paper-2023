@@ -1,6 +1,8 @@
-# LST Crab performance paper
+# LST-1 Crab performance paper
 
 This repository includes code and data to reproduce the figures (only the data points, not the entire data analysis) of the paper entitled _Observations of the Crab Nebula and Pulsar with the Large-Sized Telescope prototype of the Cherenkov Telescope Array_ for the CTA LST collaboration.
+
+[arXiv:2306.12960](https://arxiv.org/abs/2306.12960)
 
 
 ## How to run this repository
@@ -9,7 +11,7 @@ This repository includes code and data to reproduce the figures (only the data p
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cta-observatory/lst-crab-performance-paper-2023/HEAD)
 
-You may vist https://mybinder.org/v2/gh/cta-observatory/lst-crab-performance-paper-2023/HEAD to run this repository online.
+You may visit https://mybinder.org/v2/gh/cta-observatory/lst-crab-performance-paper-2023/HEAD to run this repository online.
 
 ### On your computer
 
@@ -30,7 +32,7 @@ jupyter-lab
 
 ### Running the notebooks
 
-The repositoy is organised following the paper sections.    
+The repository is organised following the paper sections.    
 Each notebook can be run to reproduce the paper's figures.
 
 [![Run Jupyter Notebooks](https://github.com/cta-observatory/lst-crab-performance-paper-2023/actions/workflows/run_notebooks.yml/badge.svg?branch=main)](https://github.com/cta-observatory/lst-crab-performance-paper-2023/actions/workflows/run_notebooks.yml)
@@ -38,8 +40,8 @@ Each notebook can be run to reproduce the paper's figures.
 
 ## Cite us 
 
-The preferred citation is the published article associated to this repository.
+The preferred citation is the published article associated with this repository.
 
-However, if you use the data points or code for this repository for your work, you may in additatoin cite the exact version of this repository from Zenodo.
+However, if you use the data points or code for this repository for your work, you may in addition cite the exact version of this repository from Zenodo.
 
 [![DOI](https://zenodo.org/badge/617083935.svg)](https://zenodo.org/badge/latestdoi/617083935)
