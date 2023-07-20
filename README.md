@@ -2,7 +2,7 @@
 
 This repository includes code and data to reproduce the figures (only the data points, not the entire data analysis) of the paper entitled _Observations of the Crab Nebula and Pulsar with the Large-Sized Telescope prototype of the Cherenkov Telescope Array_ for the CTA LST collaboration.
 
-[arXiv:2306.12960](https://arxiv.org/abs/2306.12960)
+[![arXiv](https://img.shields.io/badge/arXiv-2306.12960-b31b1b.svg)](https://arxiv.org/abs/2306.12960)
 
 
 ## How to run this repository
